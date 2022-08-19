@@ -1,2 +1,5 @@
 console.log("Yo")
-console.log(dayjs().format())
+
+const dayjs = require('dayjs')
+//import dayjs from 'dayjs' // ES 2015
+console.log(dayjs().format());
